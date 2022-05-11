@@ -1,11 +1,10 @@
-# from another_module import another_variable
-# print(another_variable)
+from prettytable import PrettyTable
 
-from turtle import Screen, Turtle
+# TODO Create a PrettyTable object and save it to a variable called table
+table = PrettyTable()
+print(table)
 
-shaun = Turtle()
-print(shaun)
+table.add_column("Pokemon Name", ["Pikachu", "Squirtle", "Charmander"])
+table.add_column("Pokemon Type", ["Electric", "Water", "Fire"])
 
-my_screen = Screen
-print(my_screen.canvheight)
-my_screen.exitonclick()
+print(table)
