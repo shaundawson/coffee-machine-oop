@@ -1,10 +1,9 @@
-from prettytable import PrettyTable
+from menu import Menu, MenuItem
+from coffee_maker import CoffeeMaker
+from money_machine import MoneyMachine
 
-# TODO Create a PrettyTable object and save it to a variable called table
-table = PrettyTable()
-print(table)
-
-table.add_column("Pokemon Name", ["Pikachu", "Squirtle", "Charmander"])
-table.add_column("Pokemon Type", ["Electric", "Water", "Fire"])
-
-print(table)
+# TODO Print report.
+# TODO Check resources sufficient?
+# TODO Process Coins
+# TODO Check transaction successful?
+# TODO Make Coffee.
