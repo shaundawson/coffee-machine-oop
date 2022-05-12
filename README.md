@@ -1,2 +1,3 @@
 # coffee-machine-oop
- Day 16: Python #100DaysofCode - Object Oriented Programming
+Coffee Maker OOP in Python
+https://replit.com/@ShaunDawson/day16-coffeemachineoop#coffee_maker.py
